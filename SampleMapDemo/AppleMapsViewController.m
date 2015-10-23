@@ -65,6 +65,22 @@
 
 }
 
+- (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation
+{
+    if ([[annotation title] isEqualToString:@"SRS Tower"]) {
+        return nil;
+    }
+    
+    MKAnnotationView *annView = [[MKAnnotationView alloc ] initWithAnnotation:annotation reuseIdentifier:@"currentloc"];
+    if ([[annotation title] isEqualToString:@"Kalkaji F-block"])
+        annView.image = [ UIImage imageNamed:@"taxi.png" ];
+//        UIButton *infoButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+//    [infoButton addTarget:self action:@selector(showDetailsView)
+//         forControlEvents:UIControlEventTouchUpInside];
+//    annView.rightCalloutAccessoryView = infoButton;
+//    annView.canShowCallout = YES;
+    return annView;
+}
 
 -(void)placeMarkers
 {

@@ -105,6 +105,7 @@ return center;
     self.mapView.settings.compassButton = YES;
     self.mapView.settings.myLocationButton = YES;
     self.mapView.delegate = self;
+    [self.view addSubview:self.mapView];
    
 }
 
@@ -138,6 +139,7 @@ return center;
     marker.icon = [GMSMarker markerImageWithColor:[UIColor blueColor]];
     marker.opacity = 0.9;
     marker.map = self.mapView;
+    //camera position
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:self.sourceLoc.latitude  longitude:self.destinationLoc.longitude zoom:10];
     self.mapView.camera = camera;
     
@@ -147,7 +149,8 @@ return center;
     marker2.title=self.destination.text;
     marker2.snippet =@"Destination";
     marker2.appearAnimation = kGMSMarkerAnimationPop;
-    marker2.icon = [GMSMarker markerImageWithColor:[UIColor blueColor]];
+    marker2.icon = [UIImage imageNamed:@"taxi.png"];
+    //[GMSMarker markerImageWithColor:[UIColor blueColor]];
     marker2.opacity = 0.9;
     marker2.map = self.mapView;
     

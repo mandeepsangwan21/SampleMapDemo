@@ -12,6 +12,7 @@
 		EB4F1E7E1BD8D52C0015C867 /* AppleMapsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4F1E7C1BD8D52C0015C867 /* AppleMapsViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		EB5BF0B01BD9F2F000171719 /* MapsSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5BF0AE1BD9F2F000171719 /* MapsSelector.m */; settings = {ASSET_TAGS = (); }; };
 		EB5BF0B11BD9F2F000171719 /* MapsSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5BF0AF1BD9F2F000171719 /* MapsSelector.xib */; settings = {ASSET_TAGS = (); }; };
+		EB5BF0B31BDA024B00171719 /* taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5BF0B21BDA024B00171719 /* taxi.png */; settings = {ASSET_TAGS = (); }; };
 		EB614C9B1BD753320044C817 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB614C9A1BD753320044C817 /* main.m */; };
 		EB614C9E1BD753320044C817 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB614C9D1BD753320044C817 /* AppDelegate.m */; };
 		EB614CA11BD753320044C817 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB614CA01BD753320044C817 /* ViewController.m */; };
@@ -50,6 +51,7 @@
 		EB5BF0AD1BD9F2F000171719 /* MapsSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsSelector.h; sourceTree = "<group>"; };
 		EB5BF0AE1BD9F2F000171719 /* MapsSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsSelector.m; sourceTree = "<group>"; };
 		EB5BF0AF1BD9F2F000171719 /* MapsSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapsSelector.xib; sourceTree = "<group>"; };
+		EB5BF0B21BDA024B00171719 /* taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taxi.png; sourceTree = SOURCE_ROOT; };
 		EB614C961BD753320044C817 /* SampleMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB614C9A1BD753320044C817 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB614C9C1BD753320044C817 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		EB614C981BD753320044C817 /* SampleMapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EB5BF0B21BDA024B00171719 /* taxi.png */,
 				EB614C9C1BD753320044C817 /* AppDelegate.h */,
 				EB614C9D1BD753320044C817 /* AppDelegate.m */,
 				EB614C9F1BD753320044C817 /* ViewController.h */,
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB614CA91BD753320044C817 /* LaunchScreen.storyboard in Resources */,
+				EB5BF0B31BDA024B00171719 /* taxi.png in Resources */,
 				EB614CA61BD753320044C817 /* Assets.xcassets in Resources */,
 				EB614CCD1BD753D90044C817 /* ViewController.xib in Resources */,
 				EB5BF0B11BD9F2F000171719 /* MapsSelector.xib in Resources */,
